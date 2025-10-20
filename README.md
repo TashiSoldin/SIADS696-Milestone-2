@@ -22,8 +22,8 @@ This project utilizes the NOAA World Ocean Database to:
 SIADS-696-Milestone-2/
 ├── Notebooks/
 │   ├── Data_Preparation.ipynb
-│   ├── Supervised_Learning_Part1.ipynb
-│   ├── Supervised_Learning_Part2.ipynb
+│   ├── Supervised_Learning_Task_Part1.ipynb
+│   ├── Supervised_Learning_Task_Part2.ipynb
 │   └── Unsupervised_Learning.ipynb
 ├── Data/                          # Data extracted from NOAA WOD & processed data produced by Data_Preparation.ipynb (not tracked in git)
 ├── Results/     
@@ -44,7 +44,7 @@ SIADS-696-Milestone-2/
 - **Exploratory Data Analysis (EDA)**: Statistical summaries and distributions
 - **Correlation Analysis**: Understanding relationships between oceanographic variables
 
-### 2. Supervised Learning Part 1 (`Supervised_Learning_Part1.ipynb`)
+### 2. Supervised Learning Part 1 (`Supervised_Learning_Task_Part1.ipynb`)
 - **Objective**: Predict dissolved oxygen levels in ocean waters
 - **Regression Models**: Linear Regression, Ridge Regression
 - **Ensemble Methods**: Random Forest, Gradient Boosting
@@ -55,7 +55,7 @@ SIADS-696-Milestone-2/
 - **Learning Curves**: Analyzing model performance vs. training size
 - **Failure Testing**: Understanding model limitations and edge cases
 
-### 3. Supervised Learning Part 2 (`Supervised_Learning_Part2.ipynb`)
+### 3. Supervised Learning Part 2 (`Supervised_Learning_Task_Part2.ipynb`)
 - **Objective**: Apply deep learning approaches to oxygen level prediction
 - **Deep Learning Architectures**: Neural network implementations for regression tasks
 - **Model Training**: Optimization techniques and convergence analysis
@@ -160,7 +160,6 @@ Key libraries used in this project:
 - **Data Processing**: pandas, numpy
 - **Visualization**: matplotlib, seaborn, plotly
 - **Machine Learning**: scikit-learn
-- **Deep Learning**: TensorFlow/PyTorch (if applicable)
 - **Interactive Widgets**: ipywidgets
 
 See `requirements.txt` for complete list with versions.
