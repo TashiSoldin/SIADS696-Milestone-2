@@ -27,7 +27,6 @@ SIADS-696-Milestone-2/
 │   └── Unsupervised_Learning.ipynb
 ├── Data/                          # Data extracted from NOAA WOD & processed data produced by Data_Preparation.ipynb (not tracked in git)
 ├── Results/     
-│   ├── Figures/                   # Generated visualizations
 │   └── Final Report               # Final report with all results copiled
 ├── requirements.txt
 ├── .gitignore
@@ -168,7 +167,7 @@ See `requirements.txt` for complete list with versions.
 
 For detailed findings and analysis, please refer to:
 - **Project Report**: See `Results/Final Report.pdf` for project final report including methodology, results, discussion and future work recommendations
-- **Visualizations**: See `Results/Figures/` directory for all generated plots and charts
+- **Visualizations**: Run notebooks to obtain exploratory and result visualisations
 - **Notebooks**: Each notebook contains inline analysis and interpretations
 
 ## Methodology
